@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">StreamFlix</div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." id="searchInput">
+        </div>
+
+        <div class="profile-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png">
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlimited Movies</h1>
+            <p>Watch anywhere, anytime.</p>
+            <button class="btn">Start Watching</button>
+        </div>
+    </section>
+
+    <!-- MOVIE ROWS -->
+    <section class="movie-section">
+        <h2>Popular Movies</h2>
+        <div class="movie-row" id="popularRow"></div>
+    </section>
+
+    <section class="movie-section">
+        <h2>Top Rated</h2>
+        <div class="movie-row" id="topRatedRow"></div>
+    </section>
+
+    <section class="movie-section">
+        <h2>Recently Added</h2>
+        <div class="movie-row" id="recentRow"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
